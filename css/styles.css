@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color:  #66BFBF ;
+  /* NOTE font-size: 100% (dyn) = 1em (dyn) = 16px (static); */
+  font-size: 2.5rem;
+  /* NOTE width will defeat  text-align: center */
+  /*  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto; */
+  /* NOTE another way to center element */
+  margin: 1rem auto 0 auto;
+  line-height: 2;
+}
+h2{
+  color: #66BFBF ;
+}
+h3{
+  color:  #11999E;
+}
+a{
+ color:  #11999E;
+}
+hr{
+  clear: both;
+  width: 10%;
+  margin: 25PX auto 25PX auto;
+  border-top: 10px dotted #EAF6F6
+}
+/************************** ANCHOR top level ***************************/
+
+
+.top-container {
+  /* NOTE text_align property must code in the container */
+  text-align: center;
+  background-color: #daebee;
+  position: relative;
+  padding-top: 10%;
+  font-size: 1rem;
+}
+
+
+
+.my_name{
+  font-family: 'Niconne', cursive;
+}
+.self-intro{
+  font-weight: normal;
+}
+
+.BA{
+  font-family: 'Niconne', cursive;
+  color: rgb(255, 60, 0);
+}
+.DS{
+  font-family: 'Niconne', cursive;
+  color:rgb(30, 101, 255);
+}
+.cloud_top{
+  position: absolute;
+  left:70%;
+  top:0;
+}
+.cloud_bottom{
+  position: absolute;
+  left:20%;
+}
+
+
+
+/************************** ANCHOR middel level ****************************/
+
+.BA_img{
+  width: 50%;
+  float: left;
+  /* margin-right: 15px; */
+}
+
+.DS_img{
+  width: 50%;
+  float: right;
+  /* margin-left: 15px; */
+}
+
+
+
+.skill-row{
+  width: 30%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.middle-container{
+  text-align: center;
+}
+
+.btn{
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 10px 0 #000000;
+  -moz-box-shadow: 1px 1px 10px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-shadow: 1px 1px 10px #000000;
+  border: solid #11999E  1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 2rem auto 2rem auto;
+}
+
+.btn:hover{
+   border: solid #11999E 1px;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;  
+   margin: 2rem auto 2rem auto;
+}
+/* ************************** ANCHOR bottom level ***************************/
+.bottom-container {
+  text-align: center;
+  background-color: #66BFBF;
+}
+.footer-link{
+  color:#11999E
+}
+.footer_name{
+  color:#EAF6F6
+}
